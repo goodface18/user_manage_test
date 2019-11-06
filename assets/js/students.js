@@ -40,7 +40,7 @@ function load_data(page){
         if(count%5){
           last_page ++;
         }
-        for(i=1;i<5;i++){
+        for(i=1;i<6;i++){
           item_offset = i - 3;
           item_index = page + item_offset;
 
