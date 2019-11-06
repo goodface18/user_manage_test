@@ -36,11 +36,11 @@ function load_data(page){
           $("#students_pagination").append("<li class='page-item disabled'><a class='page-link' tabindex='-1' aria-disabled='true'>Previous</a></li>");
 
         count = data['count'];
-        last_page = Math.floor(count/6)
-        if(count%6){
+        last_page = Math.floor(count/5)
+        if(count%5){
           last_page ++;
         }
-        for(i=1;i<6;i++){
+        for(i=1;i<5;i++){
           item_offset = i - 3;
           item_index = page + item_offset;
 
